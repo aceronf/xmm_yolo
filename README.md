@@ -41,3 +41,5 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 - `os`
 - `ultralytics`
 - `skimage`
+
+## Ejemplo de uso
