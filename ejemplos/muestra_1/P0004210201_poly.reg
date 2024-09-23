@@ -1,0 +1,110 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+image
+ellipse(380.577,469.565,10.000,5.000,0.000) # color=white font="helvetica 10 normal" edit=0 move=0
+ellipse(371.862,426.469,10.000,5.000,0.000) # color=white font="helvetica 10 normal" edit=0 move=0
+ellipse(337.500,471.006,10.000,5.000,0.000) # color=white font="helvetica 10 normal" edit=0 move=0
+ellipse(404.356,207.500,10.000,5.000,0.000) # color=white font="helvetica 10 normal" edit=0 move=0
+ellipse(328.838,432.271,10.000,5.000,0.000) # color=white font="helvetica 10 normal" edit=0 move=0
+circle(471.185,308.842,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(236.233,364.855,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(462.397,173.286,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(378.269,461.338,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(373.993,434.579,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(444.397,151.565,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(424.017,205.981,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(427.820,199.980,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(425.945,202.927,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(371.839,378.328,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(377.080,457.647,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(353.274,481.632,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(372.046,366.263,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(372.700,359.751,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(371.181,417.198,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(370.918,405.481,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(371.956,372.532,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(370.375,399.605,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(382.936,248.596,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(235.451,159.030,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(373.952,348.703,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(443.334,167.356,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(390.727,276.227,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(384.849,293.743,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(372.980,354.287,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(259.990,122.792,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(331.336,138.807,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(434.456,148.339,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(377.122,326.940,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(375.423,337.293,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(378.810,318.212,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(341.235,401.257,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(267.937,496.138,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(135.491,390.531,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(380.957,308.283,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(396.518,189.571,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(401.514,184.270,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(340.875,394.980,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(342.366,421.947,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(332.021,262.697,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(375.492,220.366,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(460.401,377.577,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(398.245,251.705,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(354.783,311.357,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(341.627,386.774,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(258.630,337.054,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(384.258,205.642,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(382.954,300.438,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(330.115,445.152,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(167.307,224.885,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(289.532,154.900,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(360.186,247.585,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(341.680,410.696,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(326.437,409.525,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(367.415,234.011,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(448.171,363.906,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(327.871,355.204,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(327.087,371.662,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(405.927,166.455,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(295.240,144.374,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(449.710,101.498,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(342.188,377.801,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(285.891,451.926,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(352.163,323.706,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(319.767,269.391,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(343.830,351.563,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(404.272,482.331,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(252.673,302.670,2.500) # font="helvetica 10 normal" edit=0 move=0
+circle(221.860,299.662,2.500) # font="helvetica 10 normal" edit=0 move=0
+ellipse(306.692,297.568,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(455.032,159.648,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(374.917,447.515,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(380.577,469.565,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(371.862,426.469,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(438.625,157.872,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(370.413,391.497,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(347.004,475.874,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(383.551,479.166,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(337.500,471.006,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(375.035,263.056,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(345.126,455.899,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(386.723,237.219,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(340.453,434.565,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(396.910,217.732,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(387.531,285.034,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(368.981,276.054,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(364.933,285.558,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(404.356,207.500,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(357.125,303.784,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(307.729,471.462,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(413.500,139.302,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(328.838,432.271,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(326.305,391.226,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(409.997,175.499,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(428.500,153.344,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(342.007,363.216,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(302.463,449.258,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(395.448,162.740,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(384.952,173.416,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+ellipse(349.907,260.926,5.000,2.500,0.000) # color=cyan font="helvetica 10 normal" edit=0 move=0
+polygon(281.071,426.929,282.000,497.000,406.000,502.000,488.929,426.929,420.000,357.000,488.929,219.071,464.000,156.000,442.001,103.000,281.071,219.071,320.000,298.000) # tag={man}
+
