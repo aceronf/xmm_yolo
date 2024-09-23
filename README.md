@@ -27,3 +27,14 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 - `predicciones_OBB.py`: Contiene el código para predecir sobre imágenes usando un modelo de *Oriented Bounding Boxes* de YOLO entrenado previamente. Las predicciones del modelo se comparan con el etiquetado manual ("correcto") a través de tres métricas distintas.
 
 
+## Requisitos
+- `Python 3.11`
+- `matplotlib`
+- `astropy`
+- `scikit-learn`
+- `PIL`
+- `shapely`
+- `tifffile`
+- `shutil`
+- `sys`
+- `os`
