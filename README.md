@@ -9,4 +9,6 @@ Repositorio oficial de YOLOv8: https://github.com/ultralytics/ultralytics.git.
 
 ## Contenido
 
+- `examples/`: Contiene ejemplos de scripts en diferentes lenguajes de programación (Python, JavaScript, etc.) junto con sus resultados de ejecución.
+- `docs/`: Documentación y recursos adicionales.
 
