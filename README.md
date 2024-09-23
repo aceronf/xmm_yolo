@@ -29,6 +29,7 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 
 ## Requisitos
 - `Python 3.11`
+- `numpy`
 - `matplotlib`
 - `astropy`
 - `scikit-learn`
@@ -38,3 +39,4 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 - `shutil`
 - `sys`
 - `os`
+- `ultralytics`
