@@ -40,3 +40,4 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 - `sys`
 - `os`
 - `ultralytics`
+- `skimage`
