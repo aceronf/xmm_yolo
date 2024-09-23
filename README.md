@@ -61,24 +61,24 @@ El resultado es una carpeta llamada `YOLO` con una subcarpeta por cada fold de l
 YOLO/<br>
 ├── fold_1/<br>
 │   ├── images/<br>
-|   |   |── train/
-|   |   └── validation/
-│   └── labels/
-|   |   |── train/
-|   |   └── validation/
-├── fold_2/
-│   ├── images/
-|   |   |── train/
-|   |   └── validation/
-│   └── labels/
-|   |   |── train/
-|   |   └── validation/
-└── fold_3/
-    ├── images/
-    |   |── train/
-    |   └── validation/
-    └── labels/
-        |── train/
-        └── validation/
+|   |   |── train/<br>
+|   |   └── validation/<br>
+│   └── labels/<br>
+|   |   |── train/<br>
+|   |   └── validation/<br>
+├── fold_2/<br>
+│   ├── images/<br>
+|   |   |── train/<br>
+|   |   └── validation/<br>
+│   └── labels/<br>
+|   |   |── train/<br>
+|   |   └── validation/<br>
+└── fold_3/<br>
+    ├── images/<br>
+    |   |── train/<br>
+    |   └── validation/<br>
+    └── labels/<br>
+        |── train/<br>
+        └── validation/<br>
 
 En este caso, generamos los datos para la tarea sencilla de *Object Detection*, pero
