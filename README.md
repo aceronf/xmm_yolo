@@ -58,9 +58,9 @@ Para afinar una red neuronal con los datos contenidos en `muestra_1`, hay que ge
 
 El resultado es una carpeta llamada `YOLO` con una subcarpeta por cada fold de la validación cruzada, cada una de las cuales se puede utilizar para entrenar a YOLOv8. Las carpetas `images/` contienen las imágenes
 
-YOLO/
-├── fold_1/
-│   ├── images/
+YOLO/<br>
+├── fold_1/<br>
+│   ├── images/<br>
 |   |   |── train/
 |   |   └── validation/
 │   └── labels/
