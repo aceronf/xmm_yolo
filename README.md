@@ -7,4 +7,6 @@ Los datos en los que se enfoca el proyecto son imágenes en la banda total de en
 **YOLOv8** (You Only Look Once) es la última versión de una arquitectura de redes neuronales desarrollada por Ultralytics para realizar, con gran velocidad y precisión, distintas tareas sobre imágenes como clasificación, detección y segmentación. Este proyecto aplica las tareas de *Object Detection* y *OBB* (*Oriented Bounding Boxes Object Detection*).
 Repositorio oficial de YOLOv8: https://github.com/ultralytics/ultralytics.git.
 
+## Contenido
+
 
