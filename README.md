@@ -96,3 +96,6 @@ El proceso de entrenamiento una vez preparado el conjunto de datos es sencillo y
 ```
 yolo detect train data=data.yaml model=yolov8n.pt epochs=200 imgsz=648
 ```
+
+### 5. Validación del modelo
+Cuando el entrenamiento ha concluido, YOLO crea en la carpeta del conjunto de datos un directorio llamado `runs` y guarda allí el modelo resultante y distintas métricas generadas automáticamente.
