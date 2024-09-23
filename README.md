@@ -53,6 +53,8 @@ El resultado es una nueva carpeta llamada `muestra_1\`, con las 5 imágenes que 
 ### 2. Visualización de las imágenes con sus regiones
 Para ver las imágenes de `muestra_1\` con sus regiones superpuestas, ejecutamos `ver_todo("muestra_1")`, en el fichero `visualizador.py`. Si además queremos guardar las figuras resultantes en una subcarpeta, ejecutamos `ver_todo("muestra_1", guardar=True)`. Las imágenes se representan en escala de grises siguiendo un código de colores para las regiones: cian (detecciones automáticas de fuentes), blanco (detecciones espurias marcadas automáticamente por el SAS), amarillo (regiones etiquetadas manualmente como "single"), rojo (regiones etiquetadas manualmente como "manual") y verde (etiquetadas manualmente como "source").
 
+![Resultados del modelo](ejemplos/muestra_1/visualizador/P0008820101EPX000OIMAGE8000.png)
+
 ### 3. Creación de los datos de entrenamiento
 Para afinar una red neuronal con los datos contenidos en `muestra_1`, hay que generar una estructura de ficheros específica (véase la documentación de YOLOv8). Esto se puede lograr con la función `generar_YOLO("muestra_1", class_dif=False, draw_circles=True, splits=3):` del fichero `generar_YOLO_detection.py`. `class_dif=False` indica que las regiones no se dividirán manualmente en clases en función del tipo de defecto; `draw_circles=True` edita las imágenes para que aparezcan sobre ellas las detecciones automáticas sobreimpresas, lo que ha demostrado ser de gran ayuda en el aprendizaje de los modelos; `splits=3` crea 3 iteraciones distintas (folds) de los conjuntos de entrenamiento y validación, dejando en cada caso 2/3 de las imágenes para entrenamiento y 1/3 para validación. 
 
