@@ -59,28 +59,33 @@ Para afinar una red neuronal con los datos contenidos en `muestra_1`, hay que ge
 El resultado es una carpeta llamada `YOLO` con una subcarpeta por cada fold de la validación cruzada, cada una de las cuales se puede utilizar para entrenar a YOLOv8. Las carpetas `images/` contienen las imágenes en formato TIFF, mientras que las carpetas `labels/` contienen un fichero de texto asociado a cada imagen, donde cada línea contiene las coordenadas del rectángulo que engloba una región.
 
 ```plaintext
+```plaintext
 YOLO/
 ├── fold_1/
 │   ├── images/
 │   │   ├── train/
 │   │   └── validation/
-│   └── labels/
-│       ├── train/
-│       └── validation/
+│   ├── labels/
+│   │   ├── train/
+│   │   └── validation/
+│   └── data.yaml
 ├── fold_2/
 │   ├── images/
 │   │   ├── train/
 │   │   └── validation/
-│   └── labels/
-│       ├── train/
-│       └── validation/
+│   ├── labels/
+│   │   ├── train/
+│   │   └── validation/
+│   └── data.yaml
 └── fold_3/
     ├── images/
     │   ├── train/
     │   └── validation/
-    └── labels/
-        ├── train/
-        └── validation/
+    ├── labels/
+    │   ├── train/
+    │   └── validation/
+    └── data.yaml
+
 ```
 
 En este caso, generamos los datos para la tarea sencilla de *Object Detection*, pero
