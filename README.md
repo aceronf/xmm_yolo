@@ -9,6 +9,6 @@ Repositorio oficial de YOLOv8: https://github.com/ultralytics/ultralytics.git.
 
 ## Contenido
 
-- `examples/`: Contiene ejemplos de scripts en diferentes lenguajes de programación (Python, JavaScript, etc.) junto con sus resultados de ejecución.
-- `docs/`: Documentación y recursos adicionales.
+- `regiones.py`: Contiene el código básico para procesar ficheros de regiones en formato DS9 y generar una lista de todas las regiones contenidas en ellos, conservando toda su información en forma de atributos (forma, coordenadas, etiquetas, etc.)
+- `visualizador.py`: 
 
