@@ -43,5 +43,5 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 - `skimage`
 
 ## Ejemplo de uso
-1. Filtrado de datos
+### 1. Filtrado de datos
    En las carpetas
