@@ -8,9 +8,13 @@ Los datos en los que se enfoca el proyecto son imágenes en la banda total de en
 Repositorio oficial de YOLOv8: https://github.com/ultralytics/ultralytics.git.
 
 ## Contenido
+### Muestra de imágenes y regiones
 
+### Procesamiento previo de los datos:
 - `regiones.py`: Contiene el código básico para procesar ficheros de regiones en formato DS9 y generar una lista de todas las regiones contenidas en ellos, conservando toda su información en forma de atributos (forma, coordenadas, etiquetas, etc.)
 - `visualizador.py`: Contiene varias funciones útiles para manejar y visualizar imágenes FITS y archivos de regiones al mismo tiempo. En particular, `ver_todo()` permite visualizar todas las imágenes de un directorio con sus respectivas regiones superpuestas.
 - `filtro.py`: Contiene las funciones necesarias para filtrar una serie de observaciones de acuerdo con las regiones que contienen y sus tags. También incluye una función para realizar un filtrado manual.
 - `generador_YOLO_detection.py`: Contiene las funciones necesarias para generar los datasets de entrenamiento y validación para la tarea de *Object Detection* en YOLOv8 a partir de los archivos fits y las regiones originales. La función `generar_YOLO()` crea un directorio con la estructura necesaria para llevar a cabo el proceso de entrenamiento.
 - `generador_YOLO_OBB.py`: Contiene las funciones necesarias para generar los datasets de entrenamiento y validación para la tarea de *Oriented Bounding Boxes* en YOLOv8 a partir de los archivos fits y las regiones originales. La función `generar_YOLO()` crea un directorio con la estructura necesaria para llevar a cabo el proceso de entrenamiento.
+
+### Validación de modelos entrenados:
