@@ -9,6 +9,7 @@ Repositorio oficial de YOLOv8: https://github.com/ultralytics/ultralytics.git.
 
 ## Contenido
 ### Muestra de imágenes y regiones
+En los directorios `oimages_4xmm_image\` y `polyreg_files_4xmm_image\` se incluyen respectivamente 300 imágenes (OIMAGE) de prueba y 300 ficheros de regiones correspondientes a las mismas.
 
 ### Procesamiento previo de los datos:
 - `regiones.py`: Contiene el código básico para procesar ficheros de regiones en formato DS9 y generar una lista de todas las regiones contenidas en ellos, conservando toda su información en forma de atributos (forma, coordenadas, etiquetas, etc.)
