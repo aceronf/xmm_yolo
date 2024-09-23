@@ -23,7 +23,7 @@ Ficheros dedicados a la preparación de los datos (imágenes y regiones) para su
 ### Validación de modelos entrenados:
 Ficheros dedicados a la validación de los modelos resultantes tras el proceso de entrenamiento:
 
-`predicciones_detection.py`: Contiene el código para predecir sobre imágenes usando un modelo de *Object Detection* de YOLO entrenado previamente. Las predicciones del modelo se comparan con el etiquetado manual ("correcto") a través de tres métricas distintas.
-`predicciones_OBB.py`: Contiene el código para predecir sobre imágenes usando un modelo de *Oriented Bounding Boxes* de YOLO entrenado previamente. Las predicciones del modelo se comparan con el etiquetado manual ("correcto") a través de tres métricas distintas.
+- `predicciones_detection.py`: Contiene el código para predecir sobre imágenes usando un modelo de *Object Detection* de YOLO entrenado previamente. Las predicciones del modelo se comparan con el etiquetado manual ("correcto") a través de tres métricas distintas.
+- `predicciones_OBB.py`: Contiene el código para predecir sobre imágenes usando un modelo de *Oriented Bounding Boxes* de YOLO entrenado previamente. Las predicciones del modelo se comparan con el etiquetado manual ("correcto") a través de tres métricas distintas.
 
 
