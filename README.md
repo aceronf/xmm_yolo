@@ -89,4 +89,4 @@ YOLO/
 
 ```
 
-En este caso, generamos los datos para la tarea sencilla de *Object Detection*. Para la tarea de *Oriented Bounding Boxes* es quivalente, simplemente ejecutando la función `generar_YOLO()` de `generar_YOLO_OBB.py`.
+En este caso, generamos los datos para la tarea sencilla de *Object Detection*. Para la tarea de *Oriented Bounding Boxes* es quivalente, simplemente ejecutando la función `generar_YOLO()` contenida en `generar_YOLO_OBB.py`.
