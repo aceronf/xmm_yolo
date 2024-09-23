@@ -60,7 +60,7 @@ Para afinar una red neuronal con los datos contenidos en `muestra_1`, hay que ge
 
 El resultado es una carpeta llamada `YOLO` con una subcarpeta por cada fold de la validación cruzada, cada una de las cuales se puede utilizar para entrenar a YOLOv8. Las carpetas `images/` contienen las imágenes en formato TIFF, mientras que las carpetas `labels/` contienen un fichero de texto asociado a cada imagen, donde cada línea contiene las coordenadas del rectángulo que engloba una región. En cada fold debe aparecer también un archivo .yaml con las rutas a las imágenes y etiquetas en cada caso. De momento este archivo .yaml no se genera automáticamente, pero se puede encontrar la plantilla en `ejemplos/muestra_1/`.
 
-```plaintext
+```
 YOLO/
 ├── fold_1/
 │   ├── images/
@@ -90,3 +90,9 @@ YOLO/
 ```
 
 En este caso, generamos los datos para la tarea sencilla de *Object Detection*. Para la tarea de *Oriented Bounding Boxes* es quivalente, simplemente ejecutando la función `generar_YOLO()` contenida en `generar_YOLO_OBB.py`.
+
+### 4. Entrenamiento (ajuste fino) de un modelo
+El proceso de entrenamiento una vez preparado el conjunto de datos es sencillo y se puede llevar a cabo con un comando a través de la terminal. Por ejemplo, una vez situados en la carpeta `muestra_1/YOLO/fold_1/`
+```
+yolo detect train data=data.yaml model=yolov8n.pt epochs=200 imgsz=648
+```
