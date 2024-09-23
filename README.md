@@ -44,4 +44,6 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 
 ## Ejemplo de uso
 ### 1. Filtrado de datos
-   Los directorios `oimages_4xmm_image\` y `polyreg_files_4xmm_image\` contienen los datos correspondientes a 300 imágenes OIMAGE. Es posible filtrarlos para guardar únicamente las imágenes con, al menos, una región poligonal de *tag* "manual". Esto se consigue ejecutando la función `save_polymanreg()`, en `filtro.py`.
+Los directorios `oimages_4xmm_image\` y `polyreg_files_4xmm_image\` contienen los datos correspondientes a 300 imágenes OIMAGE. Es posible filtrarlos para guardar únicamente las imágenes con, al menos, una región poligonal de *tag* "manual". Esto se consigue ejecutando la función `save_polymanreg()`, en `filtro.py`. 
+
+El resultado es una nueva carpeta llamada `muestra_1`, con las 5 imágenes que cumplen la condición anterior y el fichero de regiones de cada una de ellas.
