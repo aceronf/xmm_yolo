@@ -10,7 +10,7 @@ Repositorio oficial de YOLOv8: https://github.com/ultralytics/ultralytics.git.
 ## Contenido
 Dentro de cada fichero Python se aporta documentación detallada sobre cada función específica y sus utilidades.
 
-### Muestra de imágenes y regiones
+### Muestra de imágenes y regiones:
 En los directorios `oimages_4xmm_image\` y `polyreg_files_4xmm_image\` se incluyen respectivamente 300 imágenes (OIMAGE) de prueba y 300 ficheros de regiones correspondientes a las mismas.
 
 ### Procesamiento previo de los datos:
@@ -28,6 +28,9 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 - `predicciones_detection.py`: Contiene el código para predecir sobre imágenes usando un modelo de *Object Detection* de YOLO entrenado previamente. Las predicciones del modelo se comparan con el etiquetado manual ("correcto") a través de tres métricas distintas.
 - `predicciones_OBB.py`: Contiene el código para predecir sobre imágenes usando un modelo de *Oriented Bounding Boxes* de YOLO entrenado previamente. Las predicciones del modelo se comparan con el etiquetado manual ("correcto") a través de tres métricas distintas.
 
+### Resultados de ejemplo:
+El directorio `ejemplos/muestra_1/` es un ejemplo de cómo es posible utilizar el código de este repositorio para preparar los datos "crudos" de `oimages_4xmm_image\` y `polyreg_files_4xmm_image\` al entrenamiento de YOLOv8.
+El directorio `validación/ejemplo_fold_2/` contiene un ejemplo de validación de un modelo ya entrenado sobre un conjunto de imágenes.
 
 ## Requisitos
 - `Python 3.11`
