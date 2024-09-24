@@ -6,7 +6,6 @@ bounding boxes) de YOLO entrenado previamente.
 @author: Alejandro Cerón
 """
 import sys
-sys.path.append("C:\\Users\\Alejandro\\Desktop\\TFG\\Práctica_IFCA\\Datos")
 from ultralytics import YOLO
 import os
 import numpy as np
