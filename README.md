@@ -29,7 +29,7 @@ Ficheros dedicados a la validación de los modelos resultantes tras el proceso d
 - `predicciones_OBB.py`: Contiene el código para predecir sobre imágenes usando un modelo de *Oriented Bounding Boxes* de YOLO entrenado previamente. Las predicciones del modelo se comparan con el etiquetado manual ("correcto") mediante tres métricas distintas.
 
 ### Ejemplos de ejecución:
-El directorio `ejemplos/muestra_1/` muestra un ejemplo completo de cómo es posible utilizar el código de este repositorio para adaptar los datos "crudos" de `oimages_4xmm_image\` y `polyreg_files_4xmm_image\` para el entrenamiento de YOLOv8.
+El directorio `ejemplos/muestra_1/` muestra un ejemplo completo de cómo es posible utilizar el código de este repositorio para adaptar los datos "crudos" de `oimages_4xmm_image/` y `polyreg_files_4xmm_image/` para el entrenamiento de YOLOv8.
 El directorio `validación/ejemplo_fold_2/` contiene un ejemplo de validación de un modelo ya entrenado sobre un conjunto de imágenes.
 
 El proceso por el que se han obtenido estos resultados está descrito abajo paso a paso.
