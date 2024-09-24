@@ -6,7 +6,6 @@ YOLO entrenado previamente.
 @author: Alejandro Cerón Fernández
 """
 import sys
-sys.path.append("C:\\Users\\Alejandro\\Desktop\\TFG\\Práctica_IFCA\\Datos")
 from ultralytics import YOLO
 import os
 import numpy as np
