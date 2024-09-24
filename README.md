@@ -2,7 +2,7 @@
 
 Este repositorio contiene distintos ficheros Python para la adaptación de los datos de imagen procedentes del observatorio **XMM-Newton** (ESA) al formato apto para entrenar las redes neuronales de **YOLOv8** (You Only Look Once). Asimismo, se incluyen herramientas específicas para validar estos modelos una vez han sido entrenados (fine-tuned). 
 
-Los datos en los que se enfoca el proyecto son imágenes en la banda total de energía (producto OIMAGE) y un fichero de regiones para cada una, con información sobre fuentes detectadas automáticamente y, especialmente, áreas problemáticas delimitadas manualmente por revisores. Las funciones que se recogen aquí permiten visualizar y filtrar estas regiones e imágenes para, finalmente, generar los directorios y ficheros necesarios con los que enseñar a las redes neuronales a reconocer defectos en las imágenes automáticamente. Adicionalmente, en el directorio `validación` se aportan funciones con las que cuantificar el rendimiento de los modelos una vez ajustados. Para más información sobre el observatorio **XMM-Newton** y sus productos, consultar la documentación oficial de la misión: https://www.cosmos.esa.int/web/xmm-newton.
+Los datos en los que se enfoca el proyecto son imágenes en la banda total de energía (producto OIMAGE) y un fichero de regiones para cada una, con información sobre fuentes detectadas automáticamente y, especialmente, áreas problemáticas delimitadas manualmente por revisores. Las funciones que se recogen aquí permiten visualizar y filtrar estas regiones e imágenes para, finalmente, generar los directorios y ficheros necesarios con los que enseñar a las redes neuronales a reconocer defectos en las imágenes automáticamente. Adicionalmente, en el directorio `validación/` se aportan funciones con las que cuantificar el rendimiento de los modelos una vez ajustados. Para más información sobre el observatorio **XMM-Newton** y sus productos, consultar la documentación oficial de la misión: https://www.cosmos.esa.int/web/xmm-newton.
 
 **YOLOv8** (You Only Look Once) es la última versión de una arquitectura de redes neuronales desarrollada para realizar, con gran velocidad y precisión, distintas tareas sobre imágenes como clasificación, detección y segmentación. Este proyecto aplica las tareas de *Object Detection* y *OBB* (*Oriented Bounding Boxes Object Detection*).
 Repositorio oficial de YOLOv8: https://github.com/ultralytics/ultralytics.git.
@@ -11,7 +11,7 @@ Repositorio oficial de YOLOv8: https://github.com/ultralytics/ultralytics.git.
 Dentro de cada fichero Python se aporta documentación detallada sobre cada función específica y sus utilidades.
 
 ### Muestra de imágenes y regiones:
-En los directorios `oimages_4xmm_image\` y `polyreg_files_4xmm_image\` se incluyen respectivamente 300 imágenes (OIMAGE) de prueba y 300 ficheros de regiones correspondientes a las mismas.
+En los directorios `oimages_4xmm_image/` y `polyreg_files_4xmm_image/` se incluyen respectivamente 300 imágenes (OIMAGE) de prueba y 300 ficheros de regiones correspondientes a las mismas.
 
 ### Procesamiento previo de los datos:
 Ficheros dedicados a la preparación de los datos (imágenes y regiones) para su utilización en el entrenamiento de YOLOv8:
@@ -51,12 +51,12 @@ El proceso por el que se han obtenido estos resultados está descrito abajo paso
 
 ## Ejemplo de uso
 ### 1. Filtrado de datos
-Los directorios `oimages_4xmm_image\` y `polyreg_files_4xmm_image\` contienen los datos correspondientes a 300 imágenes OIMAGE. Es posible filtrarlos para guardar únicamente las imágenes con, al menos, una región poligonal de *tag* "manual". Esto se consigue ejecutando la función `save_polymanreg()`, en `filtro.py`. 
+Los directorios `oimages_4xmm_image/` y `polyreg_files_4xmm_image/` contienen los datos correspondientes a 300 imágenes OIMAGE. Es posible filtrarlos para guardar únicamente las imágenes con, al menos, una región poligonal de *tag* "manual". Esto se consigue ejecutando la función `save_polymanreg()`, en `filtro.py`. 
 
 El resultado es una nueva carpeta llamada `muestra_1\`, con las 5 imágenes que cumplen la condición anterior y el fichero de regiones de cada una de ellas.
 
 ### 2. Visualización de las imágenes con sus regiones
-Para ver las imágenes de `muestra_1\` con sus regiones superpuestas, ejecutamos `ver_todo("muestra_1")`, en el fichero `visualizador.py`. Si además queremos guardar las figuras resultantes en una subcarpeta, ejecutamos `ver_todo("muestra_1", guardar=True)`. Las imágenes se representan en escala de grises siguiendo un código de colores para las regiones: cian (detecciones automáticas de fuentes), blanco (detecciones espurias marcadas automáticamente por el SAS), amarillo (regiones etiquetadas manualmente como "single"), rojo (regiones etiquetadas manualmente como "manual") y verde (etiquetadas manualmente como "source").
+Para ver las imágenes de `muestra_1/` con sus regiones superpuestas, ejecutamos `ver_todo("muestra_1")`, en el fichero `visualizador.py`. Si además queremos guardar las figuras resultantes en una subcarpeta, ejecutamos `ver_todo("muestra_1", guardar=True)`. Las imágenes se representan en escala de grises siguiendo un código de colores para las regiones: cian (detecciones automáticas de fuentes), blanco (detecciones espurias marcadas automáticamente por el SAS), amarillo (regiones etiquetadas manualmente como "single"), rojo (regiones etiquetadas manualmente como "manual") y verde (etiquetadas manualmente como "source").
 
 ![Resultados_visualizador](ejemplos/muestra_1/visualizador/P0008820101EPX000OIMAGE8000.png)
 
