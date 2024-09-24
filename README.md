@@ -100,4 +100,19 @@ yolo detect train data=data.yaml model=yolov8n.pt epochs=200 imgsz=648
 ```
 
 ### 5. Validación del modelo
-Cuando el entrenamiento ha concluido, YOLO crea en la carpeta del conjunto de datos un directorio llamado `runs` y guarda allí el modelo resultante y distintos datos de validación generados automáticamente.
+Cuando el entrenamiento ha concluido, YOLO crea en la carpeta del conjunto de datos un directorio llamado `runs/detect/train/` y guarda allí el modelo resultante y distintos datos de validación generados automáticamente. En `validación/ejemplo_fold_2` se muestra el directorio generado anteriormente `fold_2` después del entrenamiento:
+
+```
+├── fold_2/
+    ├── images/
+    │   ├── train/
+    │   └── validation/
+    ├── labels/
+    │   ├── train/
+    │   └── validation/
+    ├── data.yaml
+    |
+    └── runs/
+        └── detect/
+            └── train/
+```
