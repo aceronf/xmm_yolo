@@ -103,7 +103,7 @@ yolo detect train data=data.yaml model=yolov8n.pt epochs=200 imgsz=648
 Cuando el entrenamiento ha concluido, YOLO crea en la carpeta del conjunto de datos un directorio llamado `runs/detect/train/` y guarda allí el modelo resultante y distintos datos de validación generados automáticamente. En `validación/ejemplo_fold_2` se muestra el directorio generado anteriormente `fold_2` después del entrenamiento:
 
 ```
-├── fold_2/
+├── validación/ejemplo_fold_2/
     ├── images/
     │   ├── train/
     │   └── validation/
@@ -116,3 +116,7 @@ Cuando el entrenamiento ha concluido, YOLO crea en la carpeta del conjunto de da
         └── detect/
             └── train/
 ```
+La validación consiste en usar el modelo obtenido para predecir sobre las imágenes de `images/validation/`. Esto se consigue ejecutando la función `pred_todo("ejemplo_fold_2", train="train", save_images=True, classdif=False)`, contenida en `predicciones_detection.py`. `save_images=True` permite guardar en `runs/detect/train/predicciones_val/` dos figuras por cada imagen del conjunto de validación: una con la preedicción del modelo (verde) y otra con las anotaciones originales (rojo):
+
+![Resultados_visualizador](validación/ejemplo_fold_2/runs/detect/train/predicciones_val/P0004210201EPX000OIMAGE8000.tif_orig.png)
+![Resultados_visualizador](validación/ejemplo_fold_2/runs/detect/train/predicciones_val/P0004210201EPX000OIMAGE8000.tif_pred.png)
